@@ -1,6 +1,5 @@
 use std::fmt;
 use std::ops::{Add, Div, Mul, Neg, Sub};
-
 #[derive(Clone, Copy, Debug)]
 pub struct Vec3 {
     pub e: [f32; 3],
